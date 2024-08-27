@@ -1,0 +1,60 @@
+const initialState = {
+    theme: "light", // default theme
+    colors: {
+      lightTheme: {
+        primaryColor: "#3498db",
+        secondaryColor: "#2ecc71",
+        accentColor: "#e74c3c",
+        backgroundColor: "#f4f4f4",
+        surfaceColor: "#ffffff",
+        textColor: "#333333",
+        secondaryTextColor: "#666666",
+        disabledTextColor: "#999999",
+        borderColor: "#e0e0e0",
+        inputBackgroundColor: "#ffffff",
+        inputBorderColor: "#dcdcdc",
+        buttonPrimaryBackground: "#3498db",
+        buttonPrimaryText: "#ffffff",
+        buttonSecondaryBackground: "#2ecc71",
+        buttonSecondaryText: "#ffffff",
+        buttonDisabledBackground: "#cccccc",
+        buttonDisabledText: "#999999",
+        linkColor: "#3498db",
+        hoverBackgroundColor: "#ecf0f1",
+        successColor: "#2ecc71",
+        errorColor: "#e74c3c",
+        warningColor: "#f39c12",
+        infoColor: "#3498db",
+        footerBackgroundColor: "#333333",
+        footerTextColor: "#f4f4f4"
+      },
+      darkTheme: {
+        primaryColor: "#2980b9",
+        secondaryColor: "#27ae60",
+        accentColor: "#c0392b",
+        backgroundColor: "#1b1b1b",
+        surfaceColor: "#2c2c2c",
+        textColor: "#f4f4f4",
+        secondaryTextColor: "#bfbfbf",
+        disabledTextColor: "#7f7f7f",
+        borderColor: "#3d3d3d",
+        inputBackgroundColor: "#2c2c2c",
+        inputBorderColor: "#3d3d3d",
+        buttonPrimaryBackground: "#2980b9",
+        buttonPrimaryText: "#ffffff",
+        buttonSecondaryBackground: "#27ae60",
+        buttonSecondaryText: "#ffffff",
+        buttonDisabledBackground: "#555555",
+        buttonDisabledText: "#7f7f7f",
+        linkColor: "#2980b9",
+        hoverBackgroundColor: "#333333",
+        successColor: "#27ae60",
+        errorColor: "#c0392b",
+        warningColor: "#e67e22",
+        infoColor: "#2980b9",
+        footerBackgroundColor: "#1a1a1a",
+        footerTextColor: "#e0e0e0"
+      }
+    }
+  };
+  
